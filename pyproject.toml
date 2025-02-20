@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    # only needed for the rms norm example
+    "numpy>=2.2.3",
+    "torch>=2.6.0",
+]
